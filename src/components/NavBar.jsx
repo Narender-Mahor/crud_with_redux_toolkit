@@ -15,7 +15,7 @@ const NavBar = () => {
     <>
       <nav className="navbar navbar-expand-lg bg-body-tertiary">
         <div className="container-fluid">
-          <h4>Crud Toolkit</h4>
+          <h4 className="">Student Records</h4>
           <button
             className="navbar-toggler"
             type="button"
@@ -28,7 +28,7 @@ const NavBar = () => {
             <span className="navbar-toggler-icon"></span>
           </button>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+            <ul className="navbar-nav me-auto mb-2 mb-lg-0 mx-4">
               <li className="nav-item">
                 <Link
                   to="/"
@@ -45,18 +45,6 @@ const NavBar = () => {
                 </Link>
               </li>
             </ul>
-            <form className="d-flex" role="search">
-              <input
-                className="form-control me-2"
-                type="search"
-                placeholder="Search"
-                aria-label="Search"
-                onChange={(e) => dispatch(setSearchData(e.target.value))}
-              />
-              <button className="btn btn-outline-success" type="submit">
-                Search
-              </button>
-            </form>
           </div>
         </div>
       </nav>

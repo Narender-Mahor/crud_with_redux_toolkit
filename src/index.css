@@ -35,6 +35,12 @@ code {
   width: 300px;
 }
 
-h2{
+h2 {
   font-size: 19px;
+}
+
+.errorStyle {
+  color: red;
+  font-size: 16px;
+  text-transform: capitalize;
 }
